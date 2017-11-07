@@ -34,6 +34,6 @@ function distanceTravelledInFeet(pickUpLocation, endingBlock) {
       } else {
         return (tripDistance - 400) * 0.2;
       }
-    {
+  };
 
   
