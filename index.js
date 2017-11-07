@@ -1,5 +1,5 @@
 function distanceFromHqInBlocks(pickUpLocation) {
-  if (pickUpLocation >= 42) {
+  if (pickUpLocation <= 42) {
     return 42 - pickUpLocation;
   }
   else {
