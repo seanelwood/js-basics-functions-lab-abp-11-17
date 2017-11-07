@@ -15,5 +15,9 @@ function distanceFromHqInFeet(pickUpLocation) {
 
 function distanceTravelledInFeet(pickUpLocation, endingBlock) {
   //Calculates the number of feet a passenger travels given a starting block and an ending block - it only calculates distance North and South. It uses the knowledge that a block is 264 feet long.
-    return (pickUpLocation - endingBlock) * 264;
+    if (pickUpLocation > endingBlock) {
+      return (pickUpLocation - endingBlock) * 264;      
+    } else {
+      return (endingBlock - pickUpLocation) * 264;
+    }
   }
