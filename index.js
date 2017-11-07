@@ -29,7 +29,7 @@ function distanceTravelledInFeet(pickUpLocation, endingBlock) {
       } else if (tripDistance > 2500) {
          return 'cannot travel that far';
       } else if (tripDistance > 2000){
-          return 'flat fee';
+          return 25;
         } else {
           return (tripDistance - 400) * .2;
         }
