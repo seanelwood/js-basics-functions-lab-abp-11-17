@@ -31,6 +31,6 @@ function distanceTravelledInFeet(pickUpLocation, endingBlock) {
       } else if (tripDistance > 2000){
           return 'flat fee';
         } else {
-          return (tripDistance - 400) * 0.2;
+          return (tripDistance - 400) * .2;
         }
     };
