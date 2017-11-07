@@ -9,7 +9,7 @@ function distanceFromHqInBlocks(pickUpLocation) {
 }
 
 //Returns the number of blocks from Scuber's headquarters to the pickup location. Note that you can use your distanceFromHqInBlocks function to help return the correct value here.
-function distanceFromHqInFeet(pickUpLocation) {  
+function distanceFromHqInFeet(pickUpLocation) {
   return distanceFromHqInBlocks(pickUpLocation) * 264;
 }
 
@@ -28,23 +28,12 @@ function distanceTravelledInFeet(pickUpLocation, endingBlock) {
     if (tripDistance < 400) {
       return;
     } else if (tripDistance > 2500) {
-       return 'cannot travel that far';      
+       return 'cannot travel that far';
     } else if (tripDistance > 2000){
-        return 'flat fee';      
+        return 'flat fee';
       } else {
         return (tripDistance - 400) * 0.2;
       }
     {
-      
-    }
-
-
-    
-  }
-
-
-
-
-
 
   
