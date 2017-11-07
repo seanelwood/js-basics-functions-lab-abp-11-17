@@ -11,3 +11,9 @@ function distanceFromHqInFeet(pickUpLocation) {
   //Returns the number of blocks from Scuber's headquarters to the pickup location. Note that you can use your distanceFromHqInBlocks function to help return the correct value here.
   return distanceFromHqInBlocks(pickUpLocation) * 264;
 }
+
+
+function distanceTravelledInFeet(startingBlock, endingBlock) {
+  //Calculates the number of feet a passenger travels given a starting block and an ending block - it only calculates distance North and South. It uses the knowledge that a block is 264 feet long.
+  
+}
