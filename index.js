@@ -31,6 +31,6 @@ function distanceTravelledInFeet(pickUpLocation, endingBlock) {
       } else if (tripDistance > 2000){
           return 25;
         } else {
-          return (tripDistance - 400) * .2;
+          return tripDistance * .2;
         }
     };
