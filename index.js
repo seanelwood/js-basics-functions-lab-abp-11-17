@@ -25,7 +25,7 @@ function distanceTravelledInFeet(pickUpLocation, endingBlock) {
     function calculatesFarePrice(pickUpLocation, endingBlock) {
       var tripDistance = distanceTravelledInFeet(pickUpLocation, endingBlock);
       if (tripDistance < 400) {
-        return;
+        return 0;
       } else if (tripDistance > 2500) {
          return 'cannot travel that far';
       } else if (tripDistance > 2000){
